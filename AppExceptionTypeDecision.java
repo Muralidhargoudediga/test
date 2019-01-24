@@ -13,7 +13,7 @@ public class AppExceptionTypeDecision implements Decision {
 
   public Event decide() {
     if (isBrowser)
-      return Event.Browser;
+      return Event.Browser;  dsvdscsacdsdsds;
     else if (isBackend)
       return Event.Backend;
     return Event.Application;
